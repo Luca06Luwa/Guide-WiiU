@@ -60,4 +60,4 @@ It is advised that you read the entire guide from start to finish one or more ti
 
 ---
 
-### [Continue to Aroma](aroma/sd-preparation) {docsify-ignore}
+### [Continue to Aroma](aroma/getting-started) {docsify-ignore}
