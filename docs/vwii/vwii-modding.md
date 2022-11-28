@@ -13,8 +13,6 @@ We will now place the required Homebrew files on the SD Card.
 
 ### What You Need {docsify-ignore}
 
-- The latest files from [Tiramisu for your café](https://tiramisu.foryour.cafe).
-    - Click on `Download Tiramisu`.
 - The latest files from [Aroma for your caf](https://aroma.foryour.cafe)
     - Select `Environment Loader`, `Nanddumper`, `fw.img loader` and `Base-Aroma`.
 - The latest release of the [vwii-compat-installer](https://github.com/Xpl0itU/vwii-compat-installer/releases).
