@@ -1,5 +1,6 @@
 - **Aroma**
 - [Home Page](../introduction)
+- [Getting Started](getting-started)
 - [SD Preparation](sd-preparation)
 - [Browser Exploit](browser-exploit)
 - [Making a NAND Backup](nand-backup)
