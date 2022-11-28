@@ -29,5 +29,6 @@ We will now place the required CFW files and some additional homebrew files on t
 1. **Extract** and copy the contents of the newly downloaded Tiramisu *`.zip`* file to the root of your SD Card.
 1. Copy the `01_sigpatches.rpx` file to `/wiiu/environments/tiramisu/modules/setup` on your SD Card.
 1. **Extract** and copy the contents of the newly downloaded Payloads and Base-Aroma *`.zip`* files to the root of your SD Card.
+1. Copy the `01_sigpatches.rpx` file to `/wiiu/environments/aroma/modules/setup` on your SD Card.
 
-?> If your computer asks you to overwrite existing files on your SD Card, you will need to click yes. This is important as Aroma doesn't work with outdated versions of the Environment Loader.
+?> If your computer asks you to overwrite existing files on your SD Card, you will need to click yes. This is important as Aroma doesn't work with outdated versions of the Environment Loader. </br> Also sigpatches is required for some stuff to work on aroma such as homebrew apps being distributed as WUPs and only that.
