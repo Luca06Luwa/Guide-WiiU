@@ -47,8 +47,3 @@ Nothing special, you can leave them there, delete them or replace them with new 
 It's a USB drive that has been formatted by a Wii U console to its proprietary format.  
 A Wii U formatted USB drive ***cannot be read by any other devices than the Wii U that originally formatted it.***  
 If you ever want to use it with another Wii U console or any other devices, you will have to reformat it.
-
-### Why can't I run some of my homebrew apps on Aroma?
-
-Aroma is **NOT** compatible with .elf homebrew and will never support it due to technical limitations. To continue using these homebrew apps, you need to launch into Tiramisu.
-And also note that not all .rpx homebrew apps will be compatible out of the box. Make sure the application doesn’t launch it’s own exploits and implements the ProcUI loop properly. 
