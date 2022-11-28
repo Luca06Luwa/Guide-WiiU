@@ -14,7 +14,7 @@ Currently, two ways exist to effectively block updates on the Wii U system:
 
 ### Deleting Update Folder
 
-?> This method is the easier method that is recommended to less advanced users and uses a homebrew app to modify system files. However, it has the advantage that the eShop's functionality will not be restricted.
+?> This method is the easier method that is recommended to less advanced users and uses a homebrew app to modify system files. Unlike DNS Blocking, it has the advantage that the eShop's functionality will not be restricted.
 1. Plug your SD Card into your Computer.
 1. Download and extract [UFDiine](https://github.com/GaryOderNichts/UFDiine/releases/latest) to the root of your SD Card.
 1. Plug the SD Card into your Wii U console and power it on.
