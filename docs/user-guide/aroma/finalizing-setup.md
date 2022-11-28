@@ -41,3 +41,15 @@ If you get a red warning screen while booting into Aroma, the update folder stil
    Copy the `30_bloopair.rpx` to the `wiiu/environments/aroma/modules/setup/` folder on the root of your SD Card.  
    Copy the `wiiu` folder to the root of your SD Card.
 1. Copy the contents of the newly downloaded `wiiu-extracttosd.zip` file to the root of your SD Card.
+
+### Using Tiramisu (Fallback)
+
+Tiramisu is used when installing aroma and can be used as a fallback if aroma isn't working well.
+To switch to tiramisu, simply follow these steps:
+
+1. Take the SD Card out of your computer and plug it into your Wii U console.
+1. Start the EnvironmentLoader.
+    - If you're autobooting into it, this can be done by powering on your console and holding `X`.
+1. Highlight the entry called `tiramisu` using the D-Pad.  
+    - To make the console autoboot Tiramisu press `Y`.
+1. Launch Tiramisu by pressing `A`.
