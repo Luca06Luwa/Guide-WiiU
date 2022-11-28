@@ -22,25 +22,25 @@ We are going to make the Aroma environment start automatically when your console
 While Aroma's PayloadLoader already has built-in update blocking functionality, it is recommended to delete the update folder to effectively block system updates.
 If you get a red warning screen while booting into Aroma, the update folder still exists and it is recommended to delete it using [this guide](../block-updates).
 
-### Additional Homebrew Apps
+You are now running Aroma. Any apps you have on your SD Card will show up on the Wii U menu.
 
-- **SaveMii Mod WUT Port** is a homebrew app that lets you manage your Wii U and vWii save data.
-- **Bloopair** is a Aroma module that lets you wirelessly connect most popular Bluetooth capable controllers. See [this page](https://gbatemp.net/threads/bloopair-connect-controllers-from-other-consoles-natively.594289/) for more details.
-- The **Homebrew Appstore** lets you browse and download homebrew apps directly from your Wii U.
+?> **Aroma does not support the Homebrew Launcher**  
+Launch apps from the Wii U menu using the `homebrew_on_menu` plugin.
 
-### Additional Homebrew Apps - What You Need
+You can now open the Plugin Configuration Menu using `L + Down + SELECT (-)` on the GamePad or Pro Controller (or `B + Down + Minus (-)` for WiiMotes).
 
-- The latest version of [SaveMii Mod WUT Port](https://wiiubru.com/appstore/zips/SaveMiiModWUTPort.zip).
-- The latest version of [Bloopair](https://github.com/GaryOderNichts/Bloopair/releases).
-- `wiiu-extracttosd.zip` of the [HB Appstore](https://github.com/fortheusers/hb-appstore/releases/).
+### Installing apps, modules, and plugins
 
-### Additional Homebrew Apps - Extracting Files to the SD Card
+Base-Aroma already comes with several useful plugins and modules.  
+You can also install additional Aroma compatible apps, modules and plugins. Below is a list with various recommendations.
 
-1. Copy the contents of the newly downloaded `SaveMiiModWUTPort.zip` file to the root of your SD Card.
-1. Extract the contents of the newly downloaded `Bloopair_vX.X.X.zip` file.  
-   Copy the `30_bloopair.rpx` to the `wiiu/environments/aroma/modules/setup/` folder on the root of your SD Card.  
-   Copy the `wiiu` folder to the root of your SD Card.
-1. Copy the contents of the newly downloaded `wiiu-extracttosd.zip` file to the root of your SD Card.
+| Name | Description | Installation Instructions |
+| ---- | ----------- | ------------ |
+| [Save Mii Mod WUT Port](https://github.com/Xpl0itU/savemii) ([Download](https://github.com/Xpl0itU/savemii/releases)) | Lets you manage your Wii U and vWii save data. | 1. Extract the downloaded `SaveMiiModWUTPort-Aroma.zip` file. 2. Copy the `wiiu` folder to the root of the SD Card. |
+| [Homebrew Appstore](https://github.com/fortheusers/hb-appstore) ([Download](https://github.com/fortheusers/hb-appstore/releases)) | Lets you browse and download homebrew apps directly from your Wii U. | 1. Extract the downloaded `wiiu-extracttosd.zip` file. 2. Copy the `wiiu` folder to the root of the SD Card. |
+| [FTPiiU Plugin](https://github.com/wiiu-env/ftpiiu_plugin/) ([Download](https://github.com/wiiu-env/ftpiiu_plugin/releases)) | Runs a FTP server in the background. | 1. Extract the downloaded `ftpiiu_vX_X.zip` file. <br> 2. Copy the `ftpiiu.wps` to the `wiiu/environments/aroma/plugins` folder on the root of your SD Card. |
+| [SDCafiine](https://github.com/wiiu-env/sdcafiine_plugin/) ([Download](https://github.com/wiiu-env/sdcafiine_plugin/releases)) | Allows you to mod games by redirecting files to the SD card. | 1. Extract the downloaded `sdcafiine_vX_X_X.zip` file. <br> 2. Copy the `sdcafiine.wps` to the `wiiu/environments/aroma/plugins` folder on the root of your SD Card. |
+| [Bloopair](https://github.com/GaryOderNichts/Bloopair/) ([Download](https://github.com/GaryOderNichts/Bloopair/releases)) | Allows wirelessly connecting most popular Bluetooth capable controllers. | 1. Extract the contents of the newly downloaded `Bloopair_vX.X.X.zip` file. <br> 2. Copy the `30_bloopair.rpx` to the `wiiu/environments/aroma/modules/setup/` folder on the root of your SD Card. <br> 3. Copy the `wiiu` folder to the root of your SD Card. |
 
 ### Using Tiramisu (Fallback)
 
