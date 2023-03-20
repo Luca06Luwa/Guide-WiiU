@@ -58,6 +58,9 @@ After following this guide, CFW will be loaded and enabled on boot, unless you c
 
 It is advised that you read the entire guide from start to finish one or more times before actually running through the guide with your system.
 
+> If you already have Tiramisu and want to add the Aroma environment to your Wii U, [**the Aroma guide can be found here**](../aroma/getting-started).
+> Please note that Aroma is still a work-in-progress and could potentially have bugs.
+
 ---
 
 ### [Continue to Tiramisu](tiramisu/sd-preparation) {docsify-ignore}
